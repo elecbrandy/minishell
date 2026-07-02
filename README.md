@@ -53,25 +53,23 @@
 |---|---|
 | Language | C |
 | Build | Makefile |
-| Input | GNU Readline |
 | Process | fork, execve, wait |
 | I/O | pipe, dup2, open, close |
-| Data Structure | linked list, string array |
 
 <br>
 <br>
 
-## ✅ Features
+## 🚀 How to Run
 
-| Feature | Description |
-|---|---|
-| Prompt | interactive shell prompt |
-| Parser | command, argument, quote, environment expansion 처리 |
-| Redirection | `<`, `>`, `>>`, `<<` |
-| Pipe | command node chain 기반 pipe 처리 |
-| Builtin | shell 내부 명령어 실행 |
-| External Command | PATH 탐색 후 `execve` 실행 |
-| Signal | interactive, child, heredoc signal 처리 |
+- _GNU readline 설치가 필요합니다._
+
+```bash
+# 빌드
+make all
+
+# 실행
+./minishell
+```
 
 <br>
 <br>
